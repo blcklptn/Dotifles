@@ -14,14 +14,13 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'https://github.com/HendrikPetertje/vimify'
 Plug 'sheerun/vim-polyglot'
 Plug 'majutsushi/tagbar'
 
 call plug#end()
 
 :set completeopt-=privew
-let g:spotify_token='IDJjMTU4NTQ1OWViNjQ4ZDE4ZjY3OWQ5MDY2YzVlNGRmOmVjOGU5ODJhZGVjNTRjMWFiMjc3MWYyZWI1MWFlODg3'
+
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
